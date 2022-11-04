@@ -1,1 +1,12 @@
+//EC2
+sudo su
+yum update -y
+yum install -y httpd
+systemctl start httpd.service
+systemctl status httpd
+cd /var/www/html
+pwd
+vi index.html
+i
+<h1>Hello</h1>
 
